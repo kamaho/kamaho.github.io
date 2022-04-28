@@ -1,7 +1,6 @@
 <?php
 if (isset($_POST['Email'])) {
 
-    // EDIT THE FOLLOWING TWO LINES:
     $email_to = "h0lst@icloud.com";
     $email_subject = "New form submissions";
 
@@ -67,7 +66,7 @@ if (isset($_POST['Email'])) {
     @mail($email_to, $email_subject, $email_message, $headers);
 ?>
 
-    <!-- INCLUDE YOUR SUCCESS MESSAGE BELOW -->
+    <!-- SUCCESS MESSAGE -->
 
     Thanks for getting in touch. We'll get back to you soon.
 
