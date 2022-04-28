@@ -68,7 +68,7 @@ if (isset($_POST['Email'])) {
 
     <!-- SUCCESS MESSAGE -->
 
-    Thanks for getting in touch. We'll get back to you soon.
+    Thanks for getting in touch. I´ll get back to you soon.
 
 <?php
 }
