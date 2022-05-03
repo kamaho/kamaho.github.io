@@ -1248,4 +1248,8 @@ img {
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
   }
+  h1 {
+  text-align: center;
+  margin: 35px 0 20px 0 !important;
+  }
 }
