@@ -655,35 +655,26 @@
                         </div>
                     </div>
 
-                    <form action="https://formsubmit.co/h0lst@icloud.com" method="POST">
-                        <div class="contact__inputs grid">
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Name</label>
-                                <input type="text" class="contact__input">
+                    <div class="container">
+                      <h1>FormSubmit Demo</h1>
+                      <form target="_blank" action="https://formsubmit.co/h0lst@icloud.com" method="POST">
+                        <div class="form-group">
+                          <div class="form-row">
+                            <div class="col">
+                              <input type="text" name="name" class="form-control" placeholder="Full Name" required>
                             </div>
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Email</label>
-                                <input type="email" class="contact__input">
+                            <div class="col">
+                              <input type="email" name="email" class="form-control" placeholder="Email Address" required>
                             </div>
+                          </div>
                         </div>
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Project</label>
-                            <input type="text" class="contact__input">
+                        <div class="form-group">
+                          <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
                         </div>
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Message</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
-                        </div>
-                        
-                        <div>
-                            <a href="#" class="button button--flex">
-                                Send Message
-                                <i class="uil uil-message button__icon"></i>
-                            </a>
-                        </div>
-                    </form>
+                        <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+                      </form>
+                    </div>
                 </div>
-
             </section>
         </main>
 
