@@ -752,8 +752,8 @@ img{
     }
 }
 
-/*==================== TESTIMONIAL ====================*/
-.testimonial{
+/*==================== recommendation ====================*/
+.recommendation{
     
     &__data,
     &__header{
@@ -784,7 +784,7 @@ img{
         color: var(--first-color);
     }
 }
-.swiper-container .swiper-pagination-testimonial{
+.swiper-container .swiper-pagination-recommendation{
     bottom: 0;
 }
 
@@ -974,7 +974,7 @@ img{
         width: 200px;
     }
 
-    .testimonial{
+    .recommendation{
         &__data,
         &__header{
             flex-direction: column;
@@ -1232,7 +1232,7 @@ img{
         bottom: 0;
     }
 
-    .testimonial__description{
+    .recommendation__description{
         margin-bottom: 4rem;
     }
 
